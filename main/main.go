@@ -30,6 +30,7 @@ type server struct {
 	taskList []task
 }
 
+// test
 func (s *server) Start(workPool workPool) {
 	// 任务队列
 	taskQueue := make(chan task, len(s.taskList))
